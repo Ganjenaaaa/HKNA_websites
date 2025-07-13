@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(246, 207, 214)
+}
+
+.card li {
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    background-image:linear-gradient(to top left, #f490b0, #cdc0ff);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card a {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.card1{
+    background-image:linear-gradient(to top left, #f490b0, #cdc0ff);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    color: white;   
+    padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+}
+.card2 {
+   background-image:linear-gradient(to top left, #f490b0, #cdc0ff);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    color: white;   
+    padding: 15px;
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.card3 {
+    background-image:linear-gradient(to top left, #f490b0, #cdc0ff);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    color: white;   
+    padding: 15px;
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.card1 img { 
+    width: 200px;
+    height: 230px;
+    border-radius: 100%;
+}
+.cardphoto1 img{
+     width: 500px;
+     border-style:groove solid;
+     border-radius: 100px;
+}
+.cardphoto3 img{
+    width: 350px;
+    height: 400px;
+    border-style:groove solid;
+    border-radius: 100px;
+}
+footer{
+color:white;
+text-align: center;
+padding: 20px;
+margin-top: 10px;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+}
